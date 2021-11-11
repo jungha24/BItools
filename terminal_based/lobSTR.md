@@ -2,8 +2,8 @@
 lobSTR: a short tandem repeat profiler for next generation sequencing data
 
 #### downdload
+http://lobstr.teamerlich.org/download.html
 1. source code: *lobSTR-4.0.6.tar.gz*
-> http://lobstr.teamerlich.org/download.html
 2. lobSTR v3.+ index *lobSTR_v3.0.2_hg19_resource_bundle.tar.gz*
 
 #### install
