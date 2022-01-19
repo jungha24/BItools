@@ -4,7 +4,7 @@
 1. 
 ~~~bashscripts
 # download .impute2 files for COV-CCO-0011 sample
-aws s3 cp s3://211216-covid-ap-northeast-2/1000g_output/ ./COV-CCO-0011/ --recursive --include "COV-CCO-0011.*"
+aws s3 cp s3://211216-covid-ap-northeast-2/1000g_output/ ./COV-CCO-0011/ --recursive --exclude "*" --include "COV-CCO-0011*"
 
 # convert .impute2 to vcf
 ## 'ref-first' option is required to assign reference allele
